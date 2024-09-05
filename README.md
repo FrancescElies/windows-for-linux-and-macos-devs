@@ -59,7 +59,7 @@ There are a couple of them but you can get a lot of stuff from one
 [winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/#install-winget)
 command already.
 
-    winget install wez.wezterm VideoLAN.VLC SumatraPDF.SumatraPDF BurntSushi.ripgrep.MSVC sharkdp.fd junegunn.fzf Nushell.Nushell JesseDuffield.lazygit Git.Git GitHub.GitHubDesktop GitHub.GitLFS GitHub.cli Flameshot.Flameshot Python.Python.3.12 GoLang.Go Rustlang.Rustup OBSProject.OBSStudio Neovim.Neovim GIMP.GIMP vscode Dystroy.broot
+    winget install wez.wezterm Nushell.Nushell Dystroy.broot BurntSushi.ripgrep.MSVC sharkdp.fd junegunn.fzf JesseDuffield.lazygit Git.Git GitHub.GitHubDesktop GitHub.GitLFS GitHub.cli Flameshot.Flameshot Python.Python.3.12 GoLang.Go Rustlang.Rustup OBSProject.OBSStudio Neovim.Neovim GIMP.GIMP vscode VideoLAN.VLC SumatraPDF.SumatraPDF
 
 Looking for a package, use `winget search` or look [winget-pkgs](https://github.com/microsoft/winget-pkgs)
 
