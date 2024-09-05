@@ -63,12 +63,6 @@ command already.
 
 Looking for a package, use `winget search` or look [winget-pkgs](https://github.com/microsoft/winget-pkgs)
 
-## Jumping between windows
-
-Pin the apps you use the most to your taskbar and use the windows key plus a
-number (`Win+1`, `Win+2`, `Win+3` ...) to jump between them instead of alt
-tabbing between apps you frequently use
-
 ## Throw away tools that don't work on windows and learn different tools for each OS
 
 If you want to go that path, the following works good on Windows.
@@ -119,7 +113,14 @@ having to install anything else.
 Some stuff will be very windows specific but that's ok, at the end of the day
 you are here using windows right?
 
-Here some good software for devs.
+### Jumping between windows
+
+Pin the apps you use the most to your taskbar and use the windows key plus a
+number (`Win+1`, `Win+2`, `Win+3` ...) to jump between them instead of alt
+tabbing between apps you frequently use
+
+
+### Good to install
 
 Troubleshooting some issue? Check [sysinternals](https://learn.microsoft.com/en-us/sysinternals).
 Some examples below:
