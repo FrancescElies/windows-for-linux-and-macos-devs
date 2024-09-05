@@ -46,6 +46,14 @@ Luckily Chris Patti & Ned Batchelder have some good advice on their pages.
 - [windows - _Ned Batchelder_](https://nedbatchelder.com/blog/tag/windows.html)
 - [windows papercuts for nix developers - _Chris Patti_](https://www.feoh.org/posts/windows-papercuts-for-nix-developers)
 
+## The package manager
+
+There are a couple of them but you can get a lot of stuff from one
+[winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/#install-winget)
+command already.
+
+    winget install wez.wezterm VideoLAN.VLC SumatraPDF.SumatraPDF BurntSushi.ripgrep.MSVC sharkdp.fd junegunn.fzf Nushell.Nushell JesseDuffield.lazygit Git.Git GitHub.GitHubDesktop GitHub.GitLFS GitHub.cli Flameshot.Flameshot Python.Python.3.12 GoLang.Go Rustlang.Rustup OBSProject.OBSStudio Neovim.Neovim GIMP.GIMP vscode Dystroy.broot
+
 ## Throw away tools that don't work on windows and learn different tools for each OS
 
 If you want to go that path, the following works good on Windows.
@@ -66,7 +74,7 @@ much everywhere.
 
 ## Throw away tools that are not cross-platform and learn tools that you can use on every OS
 
-- Code editors: [VS Code](https://github.com/microsoft/vscode),
+- Code editors: [VSCode](https://github.com/microsoft/vscode),
 [nvim](https://github.com/neovim/neovim) +
 [kickstart](https://github.com/nvim-lua/kickstart.nvim),
 [helix](https://helix-editor.com)
