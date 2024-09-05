@@ -119,7 +119,6 @@ Pin the apps you use the most to your taskbar and use the windows key plus a
 number (`Win+1`, `Win+2`, `Win+3` ...) to jump between them instead of alt
 tabbing between apps you frequently use
 
-
 ### Good to install
 
 Troubleshooting some issue? Check [sysinternals](https://learn.microsoft.com/en-us/sysinternals).
