@@ -101,13 +101,14 @@ Flameshot to the mix.
 Wezterm as of today is the only terminal with tmux like capabilities that works
 nicely across all major three OS.
 
+Nushell 󰟆 is a cross platform shell with clearer error messages with cues from
+bash and powershell, it also uses [coreutils](https://github.com/uutils/coreutils)
+internally, so many unix things you know they are already available without
+having to install anything else 🚀.
+
 Flameshot, an easy to use tool to share screenshots explaining what's
 going on, good for making bug reports and explaining things.
 
-Nushell is a cross platform shell with clearer error messages with cues from
-bash and powershell and uses [coreutils](https://github.com/uutils/coreutils)
-internally, so many unix things you know they are already available without
-having to install anything else.
 
 ## Windows specific stuff
 
