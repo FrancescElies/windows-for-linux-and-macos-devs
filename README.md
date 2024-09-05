@@ -43,8 +43,8 @@ ocean.
 
 Luckily Chris Patti & Ned Batchelder have some good advice on their pages.
 
-- [windows from Ned Batchelder](https://nedbatchelder.com/blog/tag/windows.html)
-- [windows-papercuts-for-nix-developers from Chris Patti](https://www.feoh.org/posts/windows-papercuts-for-nix-developers)
+- [windows - _Ned Batchelder_](https://nedbatchelder.com/blog/tag/windows.html)
+- [windows papercuts for nix developers - _Chris Patti_](https://www.feoh.org/posts/windows-papercuts-for-nix-developers)
 
 ## Throw away tools that don't work on windows and learn different tools for each OS
 
