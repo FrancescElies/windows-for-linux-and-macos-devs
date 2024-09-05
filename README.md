@@ -46,6 +46,12 @@ Luckily Chris Patti & Ned Batchelder have some good advice on their pages.
 - [windows - _Ned Batchelder_](https://nedbatchelder.com/blog/tag/windows.html)
 - [windows papercuts for nix developers - _Chris Patti_](https://www.feoh.org/posts/windows-papercuts-for-nix-developers)
 
+This are notes I wished I found before I went through discovering what worked
+and what did not work so well on windows. E.g. using emacs on windows was a
+pain, git was extremely slow and I had to make a prayer every time I updated
+packages, things getting broken became the norm and  on top of that I faced gpg
+errors during updates, maybe things changed now but moved on to something else.
+
 ## The package manager
 
 There are a couple of them but you can get a lot of stuff from one
