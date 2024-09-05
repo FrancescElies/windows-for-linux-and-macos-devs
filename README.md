@@ -3,7 +3,7 @@
 A hitchhiker's guide for Linux or MacOS devs who need to use windows
 
 <!--toc:start-->
-- [windows-for-linux-and-macos-devs](#windows-for-linux-and-macos-devs)
+- [Windows for Linux and MacOS devs](#windows-for-linux-and-macos-devs)
   - [Throw away tools that don't work on windows and learn different tools for each OS](#throw-away-tools-that-dont-work-on-windows-and-learn-different-tools-for-each-os)
   - [Throw away tools that are not cross-platform and learn tools that you can use on every OS](#throw-away-tools-that-are-not-cross-platform-and-learn-tools-that-you-can-use-on-every-os)
   - [Windows specific stuff](#windows-specific-stuff)
