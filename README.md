@@ -55,7 +55,7 @@ If you want to go that path, the following works good on Windows.
 [kickstart](https://github.com/nvim-lua/kickstart.nvim),
 [helix](https://helix-editor.com)
 - Terminal: [Windows Terminal](https://github.com/microsoft/terminal)
-- Shell: PowerShell
+- Shell: [PowerShell](https://learn.microsoft.com/en-us/powershell/)
 - Git UI: [Github Desktop](https://github.com/desktop/desktop),
 [Lazygit](https://github.com/jesseduffield/lazygit)
 - Screen sharing: [ShareX](https://getsharex.com),
@@ -71,7 +71,7 @@ much everywhere.
 [kickstart](https://github.com/nvim-lua/kickstart.nvim),
 [helix](https://helix-editor.com)
 - Terminal: [Wezterm](https://github.com/wez/wezterm/)
-- Shell: Nushell
+- Shell: [Nushell](https://www.nushell.sh/)
 - Git UI: [Github Desktop](https://github.com/desktop/desktop),
 [Lazygit](https://github.com/jesseduffield/lazygit)
 - Screen sharing: [Flameshot](https://flameshot.org),
