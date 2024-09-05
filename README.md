@@ -75,14 +75,14 @@ If you want to go that path, the following works good on Windows.
 
 - Code editors: [VS Code](https://github.com/microsoft/vscode),
 [nvim](https://github.com/neovim/neovim) +
-[kickstart](https://github.com/nvim-lua/kickstart.nvim),
+[kickstart](https://github.com/nvim-lua/kickstart.nvim) and
 [helix](https://helix-editor.com)
 - Terminal: [Windows Terminal](https://github.com/microsoft/terminal)
 - Shell: [PowerShell](https://learn.microsoft.com/en-us/powershell/)
 - Git UI: [Github Desktop](https://github.com/desktop/desktop),
 [Lazygit](https://github.com/jesseduffield/lazygit)
-- Screen sharing: [ShareX](https://getsharex.com),
-[OBS Studio](https://obsproject.com), [Gimp](https://www.gimp.org)
+- Screen sharing: [ShareX](https://getsharex.com), [OBS
+Studio](https://obsproject.com) and [Gimp](https://www.gimp.org)
 
 From this list except Windows Terminal and ShareX everything else works pretty
 much everywhere.
@@ -91,17 +91,17 @@ much everywhere.
 
 - Code editors: [VSCode](https://github.com/microsoft/vscode),
 [nvim](https://github.com/neovim/neovim) +
-[kickstart](https://github.com/nvim-lua/kickstart.nvim),
+[kickstart](https://github.com/nvim-lua/kickstart.nvim) and
 [helix](https://helix-editor.com)
 - Terminal: [Wezterm](https://github.com/wez/wezterm/)
-- Shell: [Nushell](https://www.nushell.sh/)
+- Shell: [Nushell](https://www.nushell.sh/) and [PowerShell](https://learn.microsoft.com/en-us/powershell/)
 - Git UI: [Github Desktop](https://github.com/desktop/desktop),
 [Lazygit](https://github.com/jesseduffield/lazygit)
 - Screen sharing: [Flameshot](https://flameshot.org),
-[OBS Studio](https://obsproject.com), [Gimp](https://www.gimp.org),
+[OBS Studio](https://obsproject.com) and [Gimp](https://www.gimp.org),
 
-Windows and ShareX flew away, instead we got Wezterm, Nushell and Flameshot to
-the mix.
+Windows Terminal and ShareX flew away, instead we got Wezterm, Nushell and
+Flameshot to the mix.
 
 Wezterm as of today is the only terminal with tmux like capabilities that works
 nicely across all major three OS.
