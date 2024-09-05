@@ -134,7 +134,7 @@ it works on [linux](https://github.com/Sysinternals/ProcDump-for-Linux) too
 - Programs configured to startup automatically? See
 [autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)
 
-But if you install one thing only, install,
+But if you install one thing only, install
 [system-informer](https://github.com/winsiderss/systeminformer).
 A better task manager, impressive, play around with it to see what it can do
 for you. Many things Sysinternals do, you can do it directly from
