@@ -54,6 +54,8 @@ command already.
 
     winget install wez.wezterm VideoLAN.VLC SumatraPDF.SumatraPDF BurntSushi.ripgrep.MSVC sharkdp.fd junegunn.fzf Nushell.Nushell JesseDuffield.lazygit Git.Git GitHub.GitHubDesktop GitHub.GitLFS GitHub.cli Flameshot.Flameshot Python.Python.3.12 GoLang.Go Rustlang.Rustup OBSProject.OBSStudio Neovim.Neovim GIMP.GIMP vscode Dystroy.broot
 
+Looking for a package, use `winget search` or look [winget-pkgs](https://github.com/microsoft/winget-pkgs)
+
 ## Throw away tools that don't work on windows and learn different tools for each OS
 
 If you want to go that path, the following works good on Windows.
