@@ -55,9 +55,10 @@ errors during updates, maybe things changed now but moved on to something else.
 
 ## The package manager
 
-There are a couple of them but you can get a lot of stuff from one
+There are other package managers too but
 [winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/#install-winget)
-command already.
+is from microsoft itself and you can get a lot of stuff from one command
+already.
 
     winget install wez.wezterm Nushell.Nushell Dystroy.broot BurntSushi.ripgrep.MSVC sharkdp.fd junegunn.fzf JesseDuffield.lazygit Git.Git GitHub.GitHubDesktop GitHub.GitLFS GitHub.cli Flameshot.Flameshot Python.Python.3.12 GoLang.Go Rustlang.Rustup OBSProject.OBSStudio Neovim.Neovim GIMP.GIMP vscode VideoLAN.VLC SumatraPDF.SumatraPDF
 
