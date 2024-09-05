@@ -68,12 +68,12 @@ Looking for a package, use `winget search` or look [winget-pkgs](https://github.
 
 If you want to go that path, the following works good on Windows.
 
-- Code editors: [VS Code](https://github.com/microsoft/vscode),
-[nvim](https://github.com/neovim/neovim) +
+- Code editors: 󰨞[VS Code](https://github.com/microsoft/vscode),
+[nvim](https://github.com/neovim/neovim) +
 [kickstart](https://github.com/nvim-lua/kickstart.nvim) and
-[helix](https://helix-editor.com)
+🧬[helix](https://helix-editor.com)
 - Terminal: [Windows Terminal](https://github.com/microsoft/terminal)
-- Shell: [PowerShell](https://learn.microsoft.com/en-us/powershell/)
+- Shell: [PowerShell](https://learn.microsoft.com/en-us/powershell/)
 - Git UI: [Github Desktop](https://github.com/desktop/desktop),
 [Lazygit](https://github.com/jesseduffield/lazygit)
 - Screen sharing: [ShareX](https://getsharex.com), [OBS
@@ -84,12 +84,12 @@ much everywhere.
 
 ## Throw away tools that are not cross-platform and learn tools that you can use on every OS
 
-- Code editors: [VSCode](https://github.com/microsoft/vscode),
-[nvim](https://github.com/neovim/neovim) +
+- Code editors: 󰨞[VS Code](https://github.com/microsoft/vscode),
+[nvim](https://github.com/neovim/neovim) +
 [kickstart](https://github.com/nvim-lua/kickstart.nvim) and
-[helix](https://helix-editor.com)
+🧬[helix](https://helix-editor.com)
 - Terminal: [Wezterm](https://github.com/wez/wezterm/)
-- Shell: [Nushell](https://www.nushell.sh/) and [PowerShell](https://learn.microsoft.com/en-us/powershell/)
+- Shell: 󰟆[Nushell](https://www.nushell.sh/) and [PowerShell](https://learn.microsoft.com/en-us/powershell/)
 - Git UI: [Github Desktop](https://github.com/desktop/desktop),
 [Lazygit](https://github.com/jesseduffield/lazygit)
 - Screen sharing: [Flameshot](https://flameshot.org),
