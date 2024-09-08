@@ -14,7 +14,11 @@ ask. Maybe you have to share a laptop with family members who have Windows
 installed? Would you really want to spend your energy convincing them that
 Linux is a much better option? Or convince them to buy a expensive Mac? Making
 the sweet promise that all their IT problems will be gone later on; they just
-needed a bit of help.
+needed a bit of help. A different thing would be if they have an old laptop
+that doesn't get any mac updates or they have windows but this old machine
+became slower and slower because newer windows require a more powerful machine,
+in that case, yes install a Linux and tell them you just saved their laptop, no
+need to buy a new one.
 
 Would you turn down an interesting job offer just because they use Windows?
 They do some cool stuff, but their clients are using Windows. What would you do?
