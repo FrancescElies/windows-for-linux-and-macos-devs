@@ -62,7 +62,7 @@ pain, git was extremely slow and I had to make a prayer every time I updated
 packages, things getting broken became the norm and on top of that I faced gpg
 errors during updates, maybe things changed now but moved on to something else.
 
-## The package manager
+## A package manager
 
 There are other package managers too but
 [winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/#install-winget)
