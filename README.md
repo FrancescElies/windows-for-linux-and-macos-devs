@@ -1,13 +1,12 @@
 # Windows for Linux and MacOS devs
 
-[GitHub Page](https://francescelies.github.io/windows-for-linux-and-macos-devs/)
+[GitHub Page](https://francescelies.github.io/windows-for-linux-and-macos-devs)
 
 A hitchhiker's guide for Linux or MacOS devs who need to use windows.
 
 <!--toc:start-->
 - [Windows for Linux and MacOS devs](#windows-for-linux-and-macos-devs)
-  - [The package manager](#the-package-manager)
-  - [Throw away tools that don't work on windows and learn different tools for each OS](#throw-away-tools-that-dont-work-on-windows-and-learn-different-tools-for-each-os)
+  - [A package manager](#a-package-manager)
   - [Throw away tools that are not cross-platform and learn tools that you can use on every OS](#throw-away-tools-that-are-not-cross-platform-and-learn-tools-that-you-can-use-on-every-os)
   - [Windows specific stuff](#windows-specific-stuff)
     - [Jumping between windows](#jumping-between-windows)
@@ -75,51 +74,38 @@ already.
 
 Looking for a package, use `winget search` or look [winget-pkgs](https://github.com/microsoft/winget-pkgs)
 
-## Throw away tools that don't work on windows and learn different tools for each OS
-
-If you want to go that path, the following works good on Windows.
-
-- Code editors: [VS Code](https://github.com/microsoft/vscode),
-[nvim](https://github.com/neovim/neovim) +
-[kickstart](https://github.com/nvim-lua/kickstart.nvim) and
-[helix](https://helix-editor.com)
-- Terminal: [Windows Terminal](https://github.com/microsoft/terminal)
-- Shell: [PowerShell](https://learn.microsoft.com/en-us/powershell/)
-- Git UI: [Github Desktop](https://github.com/desktop/desktop),
-[Lazygit](https://github.com/jesseduffield/lazygit)
-- Screen sharing: [ShareX](https://getsharex.com), [OBS
-Studio](https://obsproject.com) and [Gimp](https://www.gimp.org)
-
-From this list except Windows Terminal and ShareX everything else works pretty
-much everywhere.
-
 ## Throw away tools that are not cross-platform and learn tools that you can use on every OS
 
 - Code editors: [VSCode](https://github.com/microsoft/vscode),
 [nvim](https://github.com/neovim/neovim) +
 [kickstart](https://github.com/nvim-lua/kickstart.nvim) and
 [helix](https://helix-editor.com)
-- Terminal: [Wezterm](https://github.com/wez/wezterm/)
-- Shell: [Nushell](https://www.nushell.sh/) and [PowerShell](https://learn.microsoft.com/en-us/powershell/)
+- Terminal: [Wezterm](https://github.com/wez/wezterm)
+- Shell: [Nushell](https://www.nushell.sh) and [PowerShell](https://learn.microsoft.com/en-us/powershell)
 - Git UI: [Github Desktop](https://github.com/desktop/desktop),
 [Lazygit](https://github.com/jesseduffield/lazygit)
 - Screen sharing: [Flameshot](https://flameshot.org),
 [OBS Studio](https://obsproject.com) and [Gimp](https://www.gimp.org),
 
-Windows Terminal and ShareX flew away, instead we got Wezterm, Nushell and
-Flameshot to the mix.
+[Wezterm](https://wezfurlong.org/wezterm) as of today to my knowledge the only
+terminal with tmux like capabilities that works nicely across all major three
+OS. Check [Default Key
+Assignments](https://wezfurlong.org/wezterm/config/default-keys.html), `ctrl +
+shift + alt + "` for vertical splits `ctrl + shift + alt + %` for horizontal
+splits and `ctrl + shift + z` to zoom should be enough to get you started,
+eventually you will probably want to define your own shortcuts, create new
+sessions with ease (see
+[here](https://github.com/wez/wezterm/discussions/4796#discussioncomment-10329727)),
+all can be done with Lua within `.wezterm.lua` in your home folder.
 
-Wezterm as of today is the only terminal with tmux like capabilities that works
-nicely across all major three OS.
+[Nushell](https://www.nushell.sh) is a cross platform shell with clearer error
+messages with cues from bash and powershell, it also uses
+[coreutils](https://github.com/uutils/coreutils) internally, so many unix
+utilities you know they are already available without having to install
+something like cygwin.
 
-Nushell is a cross platform shell with clearer error messages with cues from
-bash and powershell, it also uses [coreutils](https://github.com/uutils/coreutils)
-internally, so many unix things you know they are already available without
-having to install anything else 🚀.
-
-Flameshot, an easy to use tool to share screenshots explaining what's
-going on, good for making bug reports and explaining things.
-
+[Flameshot](https://flameshot.org), an easy to use tool to share screenshots
+explaining what's going on, good for making bug reports and explaining things.
 
 ## Windows specific stuff
 
