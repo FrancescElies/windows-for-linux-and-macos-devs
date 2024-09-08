@@ -103,6 +103,10 @@ messages with cues from bash and powershell, it also uses
 [coreutils](https://github.com/uutils/coreutils) internally, so many unix
 utilities you know they are already available without having to install
 something like cygwin.
+[Coming form bash](https://www.nushell.sh/book/coming_from_bash.html) is a good place to start.
+If you like fzf search for `change_dir_with_fzf` in
+[here](https://www.nushell.sh/book/line_editor.html#keybindings) has a low
+effort snippet to change directories effectively.
 
 [Flameshot](https://flameshot.org), an easy to use tool to share screenshots
 explaining what's going on, good for making bug reports and explaining things.
@@ -120,7 +124,9 @@ tabbing between apps you frequently use
 
 ### Good to install
 
-Troubleshooting some issue? Check [sysinternals](https://learn.microsoft.com/en-us/sysinternals).
+Troubleshooting some issue?
+Check [sysinternals](https://learn.microsoft.com/en-us/sysinternals).
+
 Some examples below:
 
 - Generate process dumps when a process has a hung or crashes, see
