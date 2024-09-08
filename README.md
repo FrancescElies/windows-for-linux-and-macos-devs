@@ -4,9 +4,12 @@ A hitchhiker's guide for Linux or MacOS devs who need to use windows
 
 <!--toc:start-->
 - [Windows for Linux and MacOS devs](#windows-for-linux-and-macos-devs)
+  - [The package manager](#the-package-manager)
   - [Throw away tools that don't work on windows and learn different tools for each OS](#throw-away-tools-that-dont-work-on-windows-and-learn-different-tools-for-each-os)
   - [Throw away tools that are not cross-platform and learn tools that you can use on every OS](#throw-away-tools-that-are-not-cross-platform-and-learn-tools-that-you-can-use-on-every-os)
   - [Windows specific stuff](#windows-specific-stuff)
+    - [Jumping between windows](#jumping-between-windows)
+    - [Good to install](#good-to-install)
 <!--toc:end-->
 
 Going from MacOS or Linux to windows, why would you even do that? You might
