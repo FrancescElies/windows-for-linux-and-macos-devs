@@ -34,9 +34,11 @@ don't work on windows and learn different tools for each OS or you could throw
 away tools that are not cross-platform and learn tools that you can use on
 every OS.
 
-I prefer the second one, this way I don't need to keep forgetting and
-relearning different tools that solve the same problem after I spend a while
-without using a certain OS.
+If you use apps that work on multiple operating systems you won't need to keep
+forgetting and relearning different tools that solve the same problem on each
+OS. In a way the OS becomes something like your graphics cards driver, you
+don't care much about it as long as it does it's job, even though not
+completely the OS starts getting out of the way.
 
 Finding good resources is not easy, I did not come across many resources
 covering this topic, but the ones I found where mainly saying, use WSL and run
