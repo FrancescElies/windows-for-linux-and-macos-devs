@@ -55,7 +55,8 @@ Luckily Chris Patti & Ned Batchelder have some good advice on their pages.
 
 - [windows - _Ned Batchelder_](https://nedbatchelder.com/blog/tag/windows.html)
 - [windows papercuts for nix developers - _Chris Patti_](https://www.feoh.org/posts/windows-papercuts-for-nix-developers)
-- Do you know a good resource? _Improve this page_ at the bottom of this page
+- Do you know a good resource? Click _Improve this page_ at the bottom or
+create a pr.
 
 This are notes I wished I found before I went through discovering what worked
 and what did not work so well on windows. E.g. using emacs on windows was a
