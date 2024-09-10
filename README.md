@@ -49,7 +49,7 @@ covering this topic, but the ones I found where mainly saying, use WSL and run
 the tools you are used to over there, e.g. tmux.
 I think WSL is amazing, but in my experience, it's works great until you need
 to do native things and then you are again left naked in the middle of the blue
-ocean.
+ocean. At the end of the day in my opinion not very good advice.
 
 Luckily Chris Patti & Ned Batchelder have some good advice on their pages.
 
