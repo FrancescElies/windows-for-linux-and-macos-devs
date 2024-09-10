@@ -140,12 +140,12 @@ Check [sysinternals](https://learn.microsoft.com/en-us/sysinternals).
 
 Below a non exhaustive list of things you can do with it:
 
-- Generate process dumps when a process has a hung or crashes, see
+- Need to generate process dumps when a process has a hung or crashes? Use
 [procdump](https://learn.microsoft.com/en-us/sysinternals/downloads/procdump),
 it works on [linux](https://github.com/Sysinternals/ProcDump-for-Linux) too
-- See what files are open by which processes? See
+- See what files are open by which processes? Use
 [handle](https://learn.microsoft.com/en-us/sysinternals/downloads/handle)
-- Programs configured to startup automatically? See
+- Programs configured to startup automatically? Use
 [autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)
 - Having to do a technical presentations or demo?
 [zoomit](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit)
