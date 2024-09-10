@@ -98,6 +98,9 @@ eventually you will probably want to define your own shortcuts, create new
 sessions with ease (see
 [here](https://github.com/wez/wezterm/discussions/4796#discussioncomment-10329727)),
 all can be done with Lua within `.wezterm.lua` in your home folder.
+I personally like `alt` + `h j k l` for moving between splits and `alt + -` and
+`alt + \` for vertical and horizontal splits (see
+[here](https://github.com/FrancescElies/wezterm-config/)).
 
 [Nushell](https://www.nushell.sh) is a cross platform shell with clearer error
 messages with cues from bash and powershell, it also uses
