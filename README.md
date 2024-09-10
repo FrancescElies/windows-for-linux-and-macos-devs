@@ -103,12 +103,14 @@ messages with cues from bash and powershell, it also uses
 [coreutils](https://github.com/uutils/coreutils) internally, so many unix
 utilities you know they are already available without having to install
 something like cygwin.
-[Coming form bash](https://www.nushell.sh/book/coming_from_bash.html) is a good place to start.
-If you like fzf search for `change_dir_with_fzf` in
+[Coming form bash](https://www.nushell.sh/book/coming_from_bash.html) is a good
+place to start. If you like fzf search for `change_dir_with_fzf` in
 [here](https://www.nushell.sh/book/line_editor.html#keybindings) has a low
-effort snippet to change directories effectively.
+effort snippet to change directories effectively, I personally prefer
+[broot](https://dystroy.org/broot) for that but just use whatever floats your
+boat.
 
-[Flameshot](https://flameshot.org), an easy to use tool to share screenshots
+[Flameshot](https://flameshot.org) is an easy to use tool to share screenshots
 explaining what's going on, good for making bug reports and explaining things.
 
 ## Windows specific stuff
@@ -119,15 +121,20 @@ you are here using windows right?
 ### Jumping between windows
 
 Pin the apps you use the most to your taskbar and use the windows key plus a
-number (`Win+1`, `Win+2`, `Win+3` ...) to jump between them instead of alt
+number (`Win+1`, `Win+2`, ...) to jump between them instead of alt
 tabbing between apps you frequently use
+
+In the example below it would trigger the following apps `Win+1` Wezterm,
+`Win+2` Firefox `Win+3` Gimp, `Win+4` DebugView, `Win5` System Informer.
+
+![example](./images/toolbar-with-pinned-apps.png)
 
 ### Good to install
 
 Troubleshooting some issue?
 Check [sysinternals](https://learn.microsoft.com/en-us/sysinternals).
 
-Some examples below:
+Below a non exhaustive list of things you can do with it:
 
 - Generate process dumps when a process has a hung or crashes, see
 [procdump](https://learn.microsoft.com/en-us/sysinternals/downloads/procdump),
@@ -136,6 +143,9 @@ it works on [linux](https://github.com/Sysinternals/ProcDump-for-Linux) too
 [handle](https://learn.microsoft.com/en-us/sysinternals/downloads/handle)
 - Programs configured to startup automatically? See
 [autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)
+- Having to do a technical presentations or demo?
+[zoomit](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit)
+allows you to screen zoom, do annotations and so on.
 
 But if you install one thing only, install
 [system-informer](https://github.com/winsiderss/systeminformer).
