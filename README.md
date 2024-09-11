@@ -122,16 +122,42 @@ explaining what's going on, good for making bug reports and explaining things.
 Some stuff will be very windows specific but that's ok, at the end of the day
 you are here using windows right?
 
+### Disable annoying default hotkeys
+
+If you accidentally press `Win + SPACE` , `ALT + SHIFT` or `CTRL + SHIFT`
+keyboard layouts and languages will change behind the scenes. This was never
+what I wanted. Disable them and save you headaches.
+
+Open
+![example](./images/win-advanced-keyboard-settings.png)
+
+And remove all key sequences
+![example](./images/win-text-services-and-input-languages.png)
+
+### Are you an European coder?
+
+If you are non english native speaker use _The Layout for Europeans, Coders and
+Translators_ [eurkey](https://eurkey.steffen.bruentjen.eu/). I will allow you
+to use the english keyboard layout for programming where you can easily reach
+curly and square braces but still write characters like `ëçß` with ease using
+`AltGr`. For other languages like Thai, Chineese, russian ... I don't have any
+suggestions.
+
+![example](./images/eurkey-layout.png)
+
 ### Jumping between windows
 
 Pin the apps you use the most to your taskbar and use the windows key plus a
-number (`Win+1`, `Win+2`, ...) to jump between them instead of alt
+number (`Win + 1`, `Win + 2`, ...) to jump between them instead of alt
 tabbing between apps you frequently use
 
-In the example below it would trigger the following apps `Win+1` Wezterm,
-`Win+2` Firefox `Win+3` Gimp, `Win+4` DebugView, `Win5` System Informer.
+In the example below it would trigger the following apps `Win + 1` Wezterm,
+`Win + 2` Firefox `Win + 3` Gimp, `Win + 4` DebugView, `Win + 5` System Informer.
 
 ![example](./images/toolbar-with-pinned-apps.png)
+
+In _Gnome Desktop_ in Linux if you pin and keep apps in the same order in the
+tab bar you can use the same shortcuts across different OS too.
 
 ### Good to install
 
