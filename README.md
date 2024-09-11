@@ -7,8 +7,10 @@ A hitchhiker's guide for Linux or MacOS devs who need to use windows.
 <!--toc:start-->
 - [Windows for Linux and MacOS devs](#windows-for-linux-and-macos-devs)
   - [A package manager](#a-package-manager)
+  - [Are you an European coder?](#are-you-an-european-coder)
   - [Throw away tools that are not cross-platform and learn tools that you can use on every OS](#throw-away-tools-that-are-not-cross-platform-and-learn-tools-that-you-can-use-on-every-os)
   - [Windows specific stuff](#windows-specific-stuff)
+    - [Disable annoying default hotkeys](#disable-annoying-default-hotkeys)
     - [Jumping between windows](#jumping-between-windows)
     - [Good to install](#good-to-install)
 <!--toc:end-->
@@ -75,6 +77,17 @@ already.
 
 Looking for a package, use `winget search` or look [winget-pkgs](https://github.com/microsoft/winget-pkgs)
 
+## Are you an European coder?
+
+If you are non english native speaker you can use _The Layout for Europeans,
+Coders and Translators_ [eurkey](https://eurkey.steffen.bruentjen.eu/). It has
+all the advantages of the US standard layout for programming while you still
+have access to most western-european characters, e.g. `çßàáäßæå` can be written
+with ease using `AltGr`. For other languages like Thai, Chineese, russian ... I
+don't have any suggestions.
+
+![example](./images/eurkey-layout.png)
+
 ## Throw away tools that are not cross-platform and learn tools that you can use on every OS
 
 - Code editors: [VSCode](https://github.com/microsoft/vscode),
@@ -133,17 +146,6 @@ Open
 
 And remove all key sequences
 ![example](./images/win-text-services-and-input-languages.png)
-
-### Are you an European coder?
-
-If you are non english native speaker use _The Layout for Europeans, Coders and
-Translators_ [eurkey](https://eurkey.steffen.bruentjen.eu/). I will allow you
-to use the english keyboard layout for programming where you can easily reach
-curly and square braces but still write characters like `ëçß` with ease using
-`AltGr`. For other languages like Thai, Chineese, russian ... I don't have any
-suggestions.
-
-![example](./images/eurkey-layout.png)
 
 ### Jumping between windows
 
