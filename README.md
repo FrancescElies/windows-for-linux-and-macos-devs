@@ -171,8 +171,6 @@ Below a non exhaustive list of things you can do with it:
 it works on [linux](https://github.com/Sysinternals/ProcDump-for-Linux) too
 - See what files are open by which processes? Use
 [handle](https://learn.microsoft.com/en-us/sysinternals/downloads/handle)
-You could in Nushell explore and search what you are looking for
-`handle -v | from csv | explore`
 - Programs configured to startup automatically? Use
 [autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)
 - Having to do a technical presentations or demo?
