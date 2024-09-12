@@ -168,11 +168,16 @@ Check [sysinternals](https://learn.microsoft.com/en-us/sysinternals).
 
 Below a non exhaustive list of things you can do with it:
 
+- Need a monitoring tool (something like `lsof` or `strace`)?
+[procmon](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)
+shows real-time file system, Registry and process/thread activity. When first
+having a look at an issue, this is a good tool to start with it.
 - Need to generate process dumps when a process has a hung or crashes? Use
 [procdump](https://learn.microsoft.com/en-us/sysinternals/downloads/procdump),
 it works on [linux](https://github.com/Sysinternals/ProcDump-for-Linux) too
 - See what files are open by which processes? Use
 [handle](https://learn.microsoft.com/en-us/sysinternals/downloads/handle)
+`handle -v | fzf` to filter or do that in system-informer.
 - Programs configured to startup automatically? Use
 [autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)
 - Having to do a technical presentations or demo?
