@@ -187,6 +187,6 @@ it works on [linux](https://github.com/Sysinternals/ProcDump-for-Linux) too
 `handle -v | fzf` to filter or do that in system-informer.
 - Programs configured to startup automatically? Use
 [autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)
-- Having to do a technical presentations or demo?
+- Having to do technical presentations or a demo?
 [zoomit](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit)
 allows you to screen zoom, do annotations and so on.
