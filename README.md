@@ -163,6 +163,13 @@ tab bar you can use the same shortcuts across different OS too.
 
 ### Good to install
 
+If you install one thing only, install
+[system-informer](https://github.com/winsiderss/systeminformer) or [process
+explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer).
+A better task manager, impressive, play around with it to see what it can do
+for you. Many things Sysinternals do, you can do it directly from
+system-informer.
+
 Troubleshooting some issue?
 Check [sysinternals](https://learn.microsoft.com/en-us/sysinternals).
 
@@ -183,9 +190,3 @@ it works on [linux](https://github.com/Sysinternals/ProcDump-for-Linux) too
 - Having to do a technical presentations or demo?
 [zoomit](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit)
 allows you to screen zoom, do annotations and so on.
-
-But if you install one thing only, install
-[system-informer](https://github.com/winsiderss/systeminformer).
-A better task manager, impressive, play around with it to see what it can do
-for you. Many things Sysinternals do, you can do it directly from
-system-informer.
