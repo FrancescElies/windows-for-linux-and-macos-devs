@@ -176,6 +176,9 @@ Even if they are not the same
 [sysinternals](https://learn.microsoft.com/en-us/sysinternals) seems to be the
 closest thing for instruments or dtrace on mac or strace and friends on linux.
 
+Not windows but for MacOS and linux
+[brendangregg](https://www.brendangregg.com/overview.html) is worth to read.
+
 On linux:
 ![http://upstate.net/jen/linux_performance_tuning.jpg](./images/linux_performance_tuning.jpg)
 
