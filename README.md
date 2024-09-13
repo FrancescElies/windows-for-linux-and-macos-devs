@@ -170,8 +170,15 @@ A better task manager, impressive, play around with it to see what it can do
 for you. Many things Sysinternals do, you can do it directly from
 system-informer.
 
-Troubleshooting some issue?
-Check [sysinternals](https://learn.microsoft.com/en-us/sysinternals).
+### Troubleshooting an issue?
+
+Even if they are not the same
+[sysinternals](https://learn.microsoft.com/en-us/sysinternals) seems to be the
+equivalent for instruments on mac.
+
+For more low level stuff like
+[dtrace](https://www.brendangregg.com/dtrace.html) or [ebpf](https://ebpf.io/)
+look at [ebpf-for-windows](https://github.com/microsoft/ebpf-for-windows).
 
 Below a non exhaustive list of things you can do with it:
 
@@ -179,9 +186,14 @@ Below a non exhaustive list of things you can do with it:
 [procmon](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)
 shows real-time file system, Registry and process/thread activity. When first
 having a look at an issue, this is a good tool to start with it.
+[ProcMon-for-Linux](https://github.com/Sysinternals/ProcMon-for-Linux) exists too.
 - Need to generate process dumps when a process has a hung or crashes? Use
 [procdump](https://learn.microsoft.com/en-us/sysinternals/downloads/procdump),
 it works on [linux](https://github.com/Sysinternals/ProcDump-for-Linux) too
+[ProcDump-for-Linux](https://github.com/Sysinternals/ProcDump-for-Linux) exists too.
+- Need to  monitor and log system activity across system reboots?
+[sysmon](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon).
+[Sysmon-for-Linux](https://github.com/Sysinternals/SysmonForLinux) exists too.
 - See what files are open by which processes? Use
 [handle](https://learn.microsoft.com/en-us/sysinternals/downloads/handle)
 `handle -v | fzf` to filter or do that in system-informer.
