@@ -174,7 +174,17 @@ system-informer.
 
 Even if they are not the same
 [sysinternals](https://learn.microsoft.com/en-us/sysinternals) seems to be the
-equivalent for instruments on mac.
+closest thing for instruments or dtrace on mac or strace and friends on linux.
+
+On linux:
+![http://upstate.net/jen/linux_performance_tuning.jpg](./images/linux_performance_tuning.jpg)
+
+| Linux  | MacOS  | Windows |
+| ------ | ------ | ------- |
+| strace | dtrace | procmon |
+| TODO   | TODO   | TODO    |
+
+- `strace`
 
 For more low level stuff like
 [dtrace](https://www.brendangregg.com/dtrace.html) or [ebpf](https://ebpf.io/)
