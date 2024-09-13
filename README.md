@@ -174,9 +174,10 @@ system-informer.
 
 Even if they are not the same
 [sysinternals](https://learn.microsoft.com/en-us/sysinternals) seems to be the
-closest thing for instruments or dtrace on mac or strace and friends on linux.
+closest thing for _Instruments_ or _dtrace_ on mac or _strace, lsof_ and
+friends on Linux.
 
-Not windows but for MacOS and linux
+Not windows but for MacOS and Linux
 [brendangregg](https://www.brendangregg.com/overview.html) is worth to read.
 
 On linux:
