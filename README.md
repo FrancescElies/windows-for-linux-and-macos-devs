@@ -221,3 +221,11 @@ it works on [linux](https://github.com/Sysinternals/ProcDump-for-Linux) too
 - Having to do technical presentations or a demo?
 [zoomit](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit)
 allows you to screen zoom, do annotations and so on.
+
+#### Windbg
+
+[rust-windbg](https://github.com/opedroso/rust-windbg)
+
+#### Analyze heap memory allocations
+
+[UMDH](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/umdh)
