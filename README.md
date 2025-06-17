@@ -149,6 +149,11 @@ And remove all key sequences
 
 ### Jumping between windows
 
+`alt+tab` has nice animations but when you do a lot of it, it can feel
+annoyingly slow. Instead you can use `alt+esc` which will switch no next
+windows without asking, that feels better, if you combine it with a remap of
+`Caps Lock` to `esc`, isn't that bad after all.
+
 Pin the apps you use the most to your taskbar and use the windows key plus a
 number (`Win + 1`, `Win + 2`, ...) to jump between them instead of alt
 tabbing between apps you frequently use
