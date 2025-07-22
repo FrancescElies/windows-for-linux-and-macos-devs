@@ -12,7 +12,12 @@ A hitchhiker's guide for Linux or MacOS devs who need to use windows.
   - [Windows specific stuff](#windows-specific-stuff)
     - [Disable annoying default hotkeys](#disable-annoying-default-hotkeys)
     - [Jumping between windows](#jumping-between-windows)
+    - [Window manager](#window-manager)
+    - [Another option](#another-option)
     - [Good to install](#good-to-install)
+    - [Troubleshooting an issue?](#troubleshooting-an-issue)
+      - [Windbg](#windbg)
+      - [Analyze heap memory allocations](#analyze-heap-memory-allocations)
 <!--toc:end-->
 
 Going from MacOS or Linux to windows, why would you even do that? You might
@@ -73,7 +78,7 @@ There are other package managers too but
 is from microsoft itself and you can get a lot of stuff from one command
 already.
 
-    winget install wez.wezterm Nushell.Nushell Dystroy.broot sysinternals BurntSushi.ripgrep.MSVC sharkdp.fd junegunn.fzf JesseDuffield.lazygit Git.Git GitHub.GitHubDesktop GitHub.GitLFS GitHub.cli Flameshot.Flameshot Python.Python.3.12 GoLang.Go Rustlang.Rustup OBSProject.OBSStudio Neovim.Neovim GIMP.GIMP vscode VideoLAN.VLC SumatraPDF.SumatraPDF
+    winget install wez.wezterm Nushell.Nushell Dystroy.broot sysinternals BurntSushi.ripgrep.MSVC sharkdp.fd junegunn.fzf JesseDuffield.lazygit Git.Git GitHub.GitHubDesktop GitHub.GitLFS GitHub.cli Flameshot.Flameshot Python.Python.3.12 GoLang.Go Rustlang.Rustup OBSProject.OBSStudio Neovim.Neovim GIMP.GIMP vscode VideoLAN.VLC SumatraPDF.SumatraPDF glzr-io.glazewm
 
 Looking for a package, use `winget search` or look [winget-pkgs](https://github.com/microsoft/winget-pkgs)
 
@@ -149,6 +154,19 @@ And remove all key sequences
 
 ### Jumping between windows
 
+### Window manager
+#### i3 like window managers
+As of today no cross platform window manager, but what can be "cross platformish"
+is the motions between certain window managers, there are some decent i3-compatible compositors.
+On windows [glazewm](https://github.com/glzr-io/glazewm) on
+macos [aerospace](https://github.com/nikitabobko/AeroSpace)
+and on linux [i3](https://github.com/i3/i3) or [sway](https://github.com/swaywm/sway)
+This is actually good enough for me and might be good enough for you as well
+
+If something gets wanky you can always stop glazewm with `alt+shift+p` and
+reactivate it again with the same shortcut.
+
+#### Another option
 `alt+tab` has nice animations but when you do a lot of it, it can feel
 annoyingly slow. Instead you can use `alt+esc` which will switch no next
 windows without asking, that feels better, if you combine it with a remap of
