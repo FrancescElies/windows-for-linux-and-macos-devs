@@ -12,8 +12,10 @@ A hitchhiker's guide for Linux or MacOS devs who need to use windows.
   - [Windows specific stuff](#windows-specific-stuff)
     - [Disable annoying default hotkeys](#disable-annoying-default-hotkeys)
     - [Jumping between windows](#jumping-between-windows)
+    - [Turn off animations](#turn-off-animations)
     - [Window manager](#window-manager)
-    - [Another option](#another-option)
+      - [i3 like window managers](#i3-like-window-managers)
+      - [Other options](#other-options)
     - [Good to install](#good-to-install)
     - [Troubleshooting an issue?](#troubleshooting-an-issue)
       - [Windbg](#windbg)
@@ -154,35 +156,46 @@ And remove all key sequences
 
 ### Jumping between windows
 
+### Turn off animations
+We don't care about animations, we just need to switch between
+different windows often and we want to do it as fast as Windows the
+OS allows us to.
+
+Press `Windows+i` to open settings, go to
+`Accessibility`, select visual effects and toggle `Animation effects`
+off.
+
+Press `Windows+r`, type `SystemPropertiesPerformance` and in the performance
+options window unselect everything except smooth edges for screen
+font otherwise things look pretty ugly.
+![SystemPropertiesPerformance](./images/win-performance-options.png)
+
 ### Window manager
+
 #### i3 like window managers
 As of today no cross platform window manager, but what can be "cross platformish"
-is the motions between certain window managers, there are some decent i3-compatible compositors.
-On windows [glazewm](https://github.com/glzr-io/glazewm) on
-macos [aerospace](https://github.com/nikitabobko/AeroSpace)
-and on linux [i3](https://github.com/i3/i3) or [sway](https://github.com/swaywm/sway)
+are the motions between certain window managers, there are some decent
+i3-compatible compositors.
+On windows
+| OS | Column2 |
+| -------------- | --------------- |
+| macos | [aerospace](https://github.com/nikitabobko/AeroSpace) |
+| windows | [glazewm](https://github.com/glzr-io/glazewm) |
+| linux | [i3](https://github.com/i3/i3) [sway](https://github.com/swaywm/sway) |
+
 This is actually good enough for me and might be good enough for you as well
 
-If something gets wanky you can always stop glazewm with `alt+shift+p` and
-reactivate it again with the same shortcut.
+On windows if something gets wanky you can always stop glazewm with
+`alt+shift+p` and reactivate it again with the same shortcut.
 
-#### Another option
+#### Other options
+`Windows+<Arrow-left/right>` to move window to one side of the screen.
+
 `alt+tab` has nice animations but when you do a lot of it, it can feel
 annoyingly slow. Instead you can use `alt+esc` which will switch no next
 windows without asking, that feels better, if you combine it with a remap of
 `Caps Lock` to `esc`, isn't that bad after all.
 
-Pin the apps you use the most to your taskbar and use the windows key plus a
-number (`Win + 1`, `Win + 2`, ...) to jump between them instead of alt
-tabbing between apps you frequently use
-
-In the example below it would trigger the following apps `Win + 1` Wezterm,
-`Win + 2` Firefox `Win + 3` Gimp, `Win + 4` DebugView, `Win + 5` System Informer.
-
-![example](./images/toolbar-with-pinned-apps.png)
-
-In _Gnome Desktop_ in Linux if you pin and keep apps in the same order in the
-tab bar you can use the same shortcuts across different OS too.
 
 ### Good to install
 
