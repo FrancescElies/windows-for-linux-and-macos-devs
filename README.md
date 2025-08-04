@@ -254,8 +254,12 @@ it works on [linux](https://github.com/Sysinternals/ProcDump-for-Linux) too
 allows you to screen zoom, do annotations and so on.
 
 #### Windbg
+Install it `winget install "windows driver kit" WinDbg`
+
+See [[./windbg.md]] for useful commands.
 
 [rust-windbg](https://github.com/opedroso/rust-windbg)
+
 
 #### Analyze heap memory allocations
 
