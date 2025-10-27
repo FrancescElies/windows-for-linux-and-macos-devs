@@ -180,10 +180,14 @@ On windows
 | OS | Column2 |
 | -------------- | --------------- |
 | macos | [aerospace](https://github.com/nikitabobko/AeroSpace) |
-| windows | [glazewm](https://github.com/glzr-io/glazewm) |
+| windows | [glazewm](https://github.com/glzr-io/glazewm) [Whim](https://github.com/dalyIsaac/Whim) |
 | linux | [i3](https://github.com/i3/i3) [sway](https://github.com/swaywm/sway) |
 
+
 This is actually good enough for me and might be good enough for you as well
+
+In glazewm's `config.yaml` replace `alt` with `lalt` this way you leave `ralt`
+(right `alt`) free to use it in other apps' shortcuts.
 
 On windows if something gets wanky you can always stop glazewm with
 `alt+shift+p` and reactivate it again with the same shortcut.
